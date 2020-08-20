@@ -1,0 +1,30 @@
+<head>
+    <link rel="stylesheet" href="./app.component.css">
+</head>
+
+
+
+<h1 > Welcome to my Calculator</h1><br>
+<link rel="stylesheet" href="/calculator/src/app/app.component.css">
+
+
+
+
+
+<input  type="number" name="a" placeholder="num1" [(ngModel)]="a"> 
+<input type="number" name="b" placeholder="num2"  [(ngModel)]="b">
+<br><br>
+<button (click)="add()" >ADD</button>
+<button (click)="sub()">SUB</button>
+<button (click)="mul()">MUL</button>
+<button (click)="div()">DIV</button>
+
+<br><br>
+
+<h2>Result:{{c}}</h2>
+
+
+
+
+
+
